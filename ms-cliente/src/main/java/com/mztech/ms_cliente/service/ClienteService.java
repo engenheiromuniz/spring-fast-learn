@@ -10,6 +10,8 @@ import com.mztech.ms_cliente.exception.ClienteNaoEncontradoException;
 import com.mztech.ms_cliente.model.Cliente;
 import com.mztech.ms_cliente.repository.ClienteRepository;
 
+import jakarta.transaction.Transactional;
+
 @Service
 public class ClienteService {
 
@@ -28,6 +30,11 @@ public class ClienteService {
     public Cliente criar(Cliente cliente) {
         return clienteRepository.save(cliente);
     }
+    
+    @Transactional
+    public List<Cliente> criarEmLote(List<Cliente> clientes) {
+        return clienteRepository.saveAll(clientes);
+    }    
 
     public Cliente atualizar(Long id, Cliente clienteAtualizado) {
         Cliente clienteExistente = buscarPorId(id);
