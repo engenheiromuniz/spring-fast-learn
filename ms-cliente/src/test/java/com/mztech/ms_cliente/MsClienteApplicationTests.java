@@ -1,10 +1,10 @@
-package com.mztech.spring_fast_learn;
+package com.mztech.ms_cliente;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringFastLearnApplicationTests {
+class MsClienteApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.mztech.spring_fast_learn;
+package com.mztech.ms_cliente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringFastLearnApplication {
+public class MsClienteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringFastLearnApplication.class, args);
+		SpringApplication.run(MsClienteApplication.class, args);
 	}
 
 }

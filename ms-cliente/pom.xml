@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mztech</groupId>
-	<artifactId>spring_fast_learn</artifactId>
+	<artifactId>ms-cliente</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
